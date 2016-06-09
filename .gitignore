@@ -1,0 +1,15 @@
+# config to ignore file and folder in git chages#
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.iml
+*.ipr
+*.iws
+*.idea
+*.project*
+*.DS_Store
+*target
+*dependency-reduced-pom.xml
