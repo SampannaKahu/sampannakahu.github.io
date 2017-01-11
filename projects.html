@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<h1>My Projects</h1>
+<h2>My Projects</h2>
 <table style="width:100%">
     <tr>
         <th>Sr. No.</th>
@@ -54,6 +54,30 @@
         <td>Robotic arm</td>
         <td>A 2-DOF planar manipulator arm that uses two servo motors to mirror cursor movements.</td>
         <td>Myself</td>
+    </tr>
+</table>
+
+<h2>My open source contributions</h2>
+<table style="width:100%">
+    <tr>
+        <th>Sr. No.</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Worked with</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Escape HTML only once (contributed in <a href="http://commons.apache.org/proper/commons-text" target="_blank">Apache Commons Text)</a><br>
+            <a href="https://github.com/apache/commons-text/pull/23" target="_blank">More info</a>.
+        </td>
+        <td>If already escaped HTML characters are in the input text, StringEscapeUtils.escapeHtml4() escapes them again.<br>
+            For example if the input is: <samp>100kg & lt; 1000kg</samp><br>
+            Then the output of escapeHtml4() becomes: <samp>100kg && amp;lt; 1000kg</samp><br>
+            At my <a href="https://www.flipkart.com/" target="_blank">workplace</a>, we felt the need for a method in StringEscapeUtils which does not escape already escaped characters.<br>
+        </td>
+        <td>
+            Myself
+        </td>
     </tr>
 </table>
 
