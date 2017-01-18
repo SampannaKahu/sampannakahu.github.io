@@ -2,84 +2,92 @@
 <html>
 <head>
     <title>Sampanna Kahu - Projects</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            text-align: center;
-        }
-    </style>
+    <!--<style>-->
+    <!--table, th, td {-->
+    <!--border: 1px solid black;-->
+    <!--border-collapse: collapse;-->
+    <!--text-align: center;-->
+    <!--}-->
+    <!--</style>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
+<div class="container-fluid">
+    <h2>My projects</h2>
+    <table class="table table-hover">
+        <tr>
+            <th>Sr. No.</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Worked with</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Fluoroscopy based sparse reconstruction of coronary venous anatomy with application to cardiac resynchronisation therapy</td>
+            <td>We worked on the fluoroscopy-based sparse 3D reconstruction of coronary venous anatomy with application to cardiac resynchronisation therapy (CRT).
+                Using this technique, a better informed placement of the CRT pacing leads can be made during a cardiac surgery.
+                The image processing pipeline in this project uses ridge detection to identify a wireframe structure of the coronary venous anatomy
+                from projection images followed by tomographic reconstruction to obtain a 3D model of the coronary arteries.
+            </td>
+            <td><a href="http://justcallharry.com/index.html" target="_blank">Dr. Prahlad G. Menon</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Detection of Diabetic Retinopathy from retinal images</td>
+            <td>Developed various image processing techniques to develop an algorithm for automatically detecting and measuring the severity of Diabetic Retinopathy from high
+                resolution retinal (fundus) images.
+            </td>
+            <td><a href="http://drkmm.com/" target="_blank">Dr. K. M. M. Rao</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Parallax Error Lens</td>
+            <td>Parallax Error Lens can convert any ordinary surface into a touch-surface using stereoscopic vision principles. It is a specially designed lens which can be
+                attached to
+                a camera to give it depth sensing capabilities.
+                <b>Note:</b> (This project was selected for showcase in BITSAA Global Meet 2014 and has won Podium finish (twice) in <a
+                        href="http://www.bits-pilani.ac.in/uploads/A.Hyd%202014-15/BITScan/BITSCAN%20Jan%2014toDec14.pdf#page=27&zoom=auto,-103,353" target="_blank">Idea
+                    Contest</a>
+                organised by Centre for Innovation, Incubation and Entrepreneurship (CIIE) at BITS Hyderabad).
+            </td>
+            <td>Myself</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Robotic arm</td>
+            <td>A 2-DOF planar manipulator arm that uses two servo motors to mirror cursor movements.</td>
+            <td>Myself</td>
+        </tr>
+    </table>
 
-<h2>My Projects</h2>
-<table style="width:100%">
-    <tr>
-        <th>Sr. No.</th>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Worked with</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Fluoroscopy based sparse reconstruction of coronary venous anatomy with application to cardiac resynchronisation therapy</td>
-        <td>We worked on the fluoroscopy-based sparse 3D reconstruction of coronary venous anatomy with application to cardiac resynchronisation therapy (CRT).
-            Using this technique, a better informed placement of the CRT pacing leads can be made during a cardiac surgery.
-            The image processing pipeline in this project uses ridge detection to identify a wireframe structure of the coronary venous anatomy
-            from projection images followed by tomographic reconstruction to obtain a 3D model of the coronary arteries.
-        </td>
-        <td><a href="http://justcallharry.com/index.html" target="_blank">Dr. Prahlad G. Menon</a></td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Detection of Diabetic Retinopathy from retinal images</td>
-        <td>Developed various image processing techniques to develop an algorithm for automatically detecting and measuring the severity of Diabetic Retinopathy from high
-            resolution retinal (fundus) images.
-        </td>
-        <td><a href="http://drkmm.com/" target="_blank">Dr. K. M. M. Rao</a></td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Parallax Error Lens</td>
-        <td>Parallax Error Lens can convert any ordinary surface into a touch-surface using stereoscopic vision principles. It is a specially designed lens which can be attached to
-            a camera to give it depth sensing capabilities.
-            <b>Note:</b> (This project was selected for showcase in BITSAA Global Meet 2014 and has won Podium finish (twice) in <a
-                    href="http://www.bits-pilani.ac.in/uploads/A.Hyd%202014-15/BITScan/BITSCAN%20Jan%2014toDec14.pdf#page=27&zoom=auto,-103,353" target="_blank">Idea Contest</a>
-            organised by Centre for Innovation, Incubation and Entrepreneurship (CIIE) at BITS Hyderabad).
-        </td>
-        <td>Myself</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Robotic arm</td>
-        <td>A 2-DOF planar manipulator arm that uses two servo motors to mirror cursor movements.</td>
-        <td>Myself</td>
-    </tr>
-</table>
-
-<h2>My open source contributions</h2>
-<table style="width:100%">
-    <tr>
-        <th>Sr. No.</th>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Worked with</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Escape HTML only once (contributed in <a href="http://commons.apache.org/proper/commons-text" target="_blank">Apache Commons Text)</a><br>
-            <a href="https://github.com/apache/commons-text/pull/23" target="_blank">More info</a>.
-        </td>
-        <td>If already escaped HTML characters are in the input text, StringEscapeUtils.escapeHtml4() escapes them again.<br>
-            For example if the input is: <samp>100kg & lt; 1000kg</samp><br>
-            Then the output of escapeHtml4() becomes: <samp>100kg && amp;lt; 1000kg</samp><br>
-            At my <a href="https://www.flipkart.com/" target="_blank">workplace</a>, we felt the need for a method in StringEscapeUtils which does not escape already escaped characters.<br>
-        </td>
-        <td>
-            Myself
-        </td>
-    </tr>
-</table>
+    <h2>My open-source contributions</h2>
+    <table class="table table-hover">
+        <tr>
+            <th>Sr. No.</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Worked with</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Escape HTML only once<br>(contributed in <a href="http://commons.apache.org/proper/commons-text" target="_blank">Apache Commons Text)</a><br>
+                <a href="https://github.com/apache/commons-text/pull/23" target="_blank">More info</a>.
+            </td>
+            <td>If already escaped HTML characters are in the input text, StringEscapeUtils.escapeHtml4() escapes them again.<br>
+                For example if the input is: <samp>100kg & lt; 1000kg</samp><br>
+                Then the output of escapeHtml4() becomes: <samp>100kg && amp;lt; 1000kg</samp><br>
+                At my <a href="https://www.flipkart.com/" target="_blank">workplace</a>, we felt the need for a method in StringEscapeUtils which does not escape already
+                escaped
+                characters.<br>
+            </td>
+            <td>
+                Myself
+            </td>
+        </tr>
+    </table>
+</div>
 
 <!-- jQuery -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
