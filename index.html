@@ -31,6 +31,32 @@
 
     <!--Bootstrap stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <style>
+
+        .cover-container {
+            height: 180px;
+            width: 100%;
+            white-space: nowrap;
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+
+        .cover-item {
+            position: relative;
+            display: inline-block;
+            margin: 8px 8px;
+            box-shadow: 2px 2px 4px #bbb;
+            border-top-right-radius: 4px;
+            width: 250px;
+            height: 158px;
+            vertical-align: bottom;
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
 </head>
 <body>
 <div class="container-fluid">
@@ -89,15 +115,61 @@
     <!-------------------------------------------------------------------->
 
     <h2 align="center">Project images</h2>
-    <div class="row">
-        <div class="col-md-3">
-            <img src="images/researchInterests2.png" alt="Lines extracted" class="img-thumbnail">
-        </div>
-        <div class="col-md-3">
-            <img src="images/researchInterests1.png" alt="3D reconstructed fluoroscopy image" class="img-thumbnail">
-        </div>
-        <div class="col-md-3">
-            <img src="images/researchInterests4.png" alt="Detected veins in a flouroscopy image" class="img-thumbnail">
+    <!--<div class="row">-->
+    <!--<div class="col-md-3">-->
+    <!--<img src="images/researchInterests2.png" alt="Lines extracted" class="img-thumbnail">-->
+    <!--</div>-->
+    <!--<div class="col-md-3">-->
+    <!--<img src="images/researchInterests1.png" alt="3D reconstructed fluoroscopy image" class="img-thumbnail">-->
+    <!--</div>-->
+    <!--<div class="col-md-3">-->
+    <!--<img src="images/researchInterests4.png" alt="Detected veins in a flouroscopy image" class="img-thumbnail">-->
+    <!--</div>-->
+    <!--<div class="col-md-3">-->
+    <!--<img src="images/winning_photo_amazed.jpg" alt="Winners of A'maze'd competition" class="img-thumbnail">-->
+    <!--</div>-->
+    <!--<div class="col-md-3">-->
+    <!--<img src="images/machinist_competition_in_progress.jpg" alt="Sampanna woring a robot in Machinist competition" class="img-thumbnail">-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <hr>
+
+    <div class="row-fluid">
+        <div class="col-lg-12 col-md-10 ">
+            <div class="cover-container">
+                <!-- START PANEL -->
+                <div class="cover-item">
+                    <a href="images/researchInterests2.png" target="_blank">
+                        <img src="images/researchInterests2.png" alt="Lines extracted" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="cover-item">
+                    <a href="images/researchInterests1.png" target="_blank">
+                        <img src="images/researchInterests1.png" alt="3D reconstructed fluoroscopy image" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="cover-item">
+                    <a href="images/researchInterests4.png" target="_blank">
+                        <img src="images/researchInterests4.png" alt="Detected veins in a flouroscopy image" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="cover-item">
+                    <a href="images/winning_photo_amazed.jpg" target="_blank">
+                        <img src="images/winning_photo_amazed.jpg" alt="Winners of A'maze'd competition" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="cover-item">
+                    <a href="images/machinist_competition_in_progress.jpg" target="_blank">
+                        <img src="images/machinist_competition_in_progress.jpg" alt="Sampanna woring a robot in Machinist competition" class="img-thumbnail">
+                    </a>
+                </div>
+                <!-- END PANEL -->
+            </div>
         </div>
     </div>
 
@@ -194,6 +266,59 @@
     <hr>
     <!-------------------------------------------------------------------->
 
+    <h2 align="center">My experience and awards</h2>
+    <table class="table">
+        <tr>
+            <th>Sr. No.</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Automation and Robotics Club</td>
+            <td>Secretary and founding member of Automation and Robotics Club (ARC) at BITS Pilani
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1st prize in Computer Vision and Robotics competition</td>
+            <td>Position 1st in Machinist (Real-time video processing and robotics competition) BITS Pilani National Technical Festival (ATMOS '13).</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1st prize in Robotics competition</td>
+            <td>Position 1st in Maze Solver Competition at BITS Pilani National Technical festival (ATMOS '12).</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>3rd prize in Robotics competition</td>
+            <td>Position 3rd in the zonal of International Robotics Challenge Gridmasters Competition at IIT BOMBAY Techfest
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>iPodia Global Innovation Conference at Beijing, China (May 2015) ( www.ipodia.usc.edu )</td>
+            <td>Participated in the iPodia innovation meet-up organised by University of Southern California across 5 nations to open up new innovation opportunities by leveraging
+                cultural diversities.
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Robotics Mentor (2013 - 2014): (Student Mentorship Program at BPHC)</td>
+            <td>Mentored students junior to me in robotics to help them get familiar with related concepts and helped them participate in competitions</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Phoenix Office bearer (2013 - 2014)</td>
+            <td>Was a core member in the student committee of the EEE and ECE
+                technical association at BITS Hyderabad. Helped organise various technical activities and competitions
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <!-------------------------------------------------------------------->
+
     <h2 align="center">My open-source contributions</h2>
     <table class="table">
         <tr>
@@ -207,7 +332,8 @@
             <td>Escape HTML only once
                 <br>
                 (contributed to <a href="http://commons.apache.org/proper/commons-text" target="_blank">Apache Commons Text)</a>.<br>
-                <a href="https://github.com/apache/commons-text/pull/23/commits/f94e314415f2dd0ca1a9659f09f6921eca2783ef" target="_blank" class="btn btn-default" role="button">Source Code</a>
+                <a href="https://github.com/apache/commons-text/pull/23/commits/f94e314415f2dd0ca1a9659f09f6921eca2783ef" target="_blank" class="btn btn-default" role="button">Source
+                    Code</a>
             </td>
             <td>If already escaped HTML characters are in the input text, StringEscapeUtils.escapeHtml4() escapes them again.<br>
                 For example if the input is: <samp>100kg & lt; 1000kg</samp><br>
@@ -229,6 +355,9 @@
     <h2 align="center">My Hobbies</h2>
     <p align="center">In my free time, I love to play the <a href="https://en.wikipedia.org/wiki/Tabla" target="_blank">Tabla</a>.<br>
         Tabla is an Indian percussion musical instrument originating in the 18th century.<br>
+        <a href="images/me_playing_table_in_pearl.jpg">
+            <img src="images/me_playing_table_in_pearl.jpg" alt="Me playing Tabla in college" class="img-thumbnail" width="300">
+        </a>
     </p>
 </div>
 
