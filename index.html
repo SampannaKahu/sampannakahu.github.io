@@ -76,8 +76,18 @@
                         <h2 class="panel-title" align="center">About me</h2>
                     </div>
                     <div class="panel-body">
-                        <p align="center">An aspiring researcher with interests in Computer Vision, Machine Learning and Robotics<br>
+                        <p align="center">An aspiring researcher with interests in Artificial Intelligence (Computer Vision, Deep Learning, Machine Learning) and Software
+                            Development.<br>
                             Currently pursuing Masters degree at <a href="https://ece.vt.edu" target="_blank">Virginia Tech</a> in Computer Engineering.<br>
+                            <b>(Expected graduation: May 2020)</b><br>
+                        </p>
+                        <hr>
+                        <p align="center">
+                            <u>Research topic:</u> Extracting figures and tables from scanned Electronics Thesis and Dissertations (ETD).<br>
+                            Using Deep Learning (Resnet-101) to segment figures and tables from the PDF files of scanned ETDs to aid in downstream information
+                            retrieval tasks.<br>
+                            <a href="https://vtechworks.lib.vt.edu/bitstream/handle/10919/96645/ETD_report.pdf?sequence=9&isAllowed=y" target="_blank" class="btn btn-default"
+                               role="button">Research details</a>
                         </p>
                         <div class="btn-group btn-group-justified" role="group">
                             <a href="https://in.linkedin.com/in/sampyash" target="_blank" class="btn btn-default" role="button">LinkedIn</a>
@@ -122,6 +132,30 @@
             <div class="cover-container">
                 <!-- START PANEL -->
                 <div class="cover-item">
+                    <a href="images/student_teacher_training.png" target="_blank">
+                        <img src="images/student_teacher_training.png" alt="student_teacher_training" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="cover-item">
+                    <a href="images/distill_mc_dropout_training_accuracy.png" target="_blank">
+                        <img src="images/distill_mc_dropout_training_accuracy.png" alt="distill_mc_dropout_training_accuracy" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="cover-item">
+                    <a href="images/bdts_result.png" target="_blank">
+                        <img src="images/bdts_result.png" alt="BDTS bounding box result" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="cover-item">
+                    <a href="images/sampanna_hololens_rotated_cropped.jpg" target="_blank">
+                        <img src="images/sampanna_hololens_rotated_cropped.jpg" alt="Sampanna Hololens" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="cover-item">
                     <a href="images/yolo_detections.png" target="_blank">
                         <img src="images/yolo_detections.png" alt="Yolo detections" class="img-thumbnail">
                     </a>
@@ -164,6 +198,19 @@
     <hr>
     <!-------------------------------------------------------------------->
 
+
+    <h2 align="center">My thesis</h2>
+    <p>
+        <b>Topic:</b> Extracting figures and tables from scanned Electronics Thesis and Dissertations (ETD).<br>
+        <b>About:</b> Using Deep Learning (Resnet-101) to segment figures and tables from the PDF files of scanned ETDs to aid in downstream information retrieval tasks.<br>
+        <a href="https://vtechworks.lib.vt.edu/bitstream/handle/10919/96645/ETD_report.pdf?sequence=9&isAllowed=y" target="_blank" class="btn btn-default" role="button">More
+            info</a>
+    </p>
+
+
+    <hr>
+    <!-------------------------------------------------------------------->
+
     <h2 align="center">My projects</h2>
     <table class="table">
         <tr>
@@ -174,6 +221,25 @@
         </tr>
         <tr>
             <td>1</td>
+            <td>Few shot distillation learning using Monte Carlo Dropout</td>
+            <td>(Bayesian Deep Learning) Used Monte Carlo Dropout for enabling few-shot knowledge distillation from a teacher model into a student model.&nbsp;
+                <a href="images/student_teacher_training.png" target="_blank" class="btn btn-default" role="button">Image 1</a>
+                <a href="images/distill_mc_dropout_training_accuracy.png" target="_blank" class="btn btn-default" role="button">Image 2</a>
+            </td>
+            <td>Myself</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Trajectory prediction of pedestrians using Monte Carlo Dropout for autonomous cars</td>
+            <td>(Bayesian Deep Learning) Trained an RNN (LSTM) to not only predict the trajectory of a pedestrian, but also to predict the probability distribution of possible
+                trajectories using Monte Carlo dropout.&nbsp;
+                <a href="images/tokekar_project_dl_model.png" target="_blank" class="btn btn-default" role="button">Image 1</a>
+                <a href="images/tokekar_project_3_sigma_plot.png" target="_blank" class="btn btn-default" role="button">Image 2</a>
+            </td>
+            <td><a href="http://tokekar.github.io" target="_blank">Dr. Prahlad G. Menon</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
             <td>Fluoroscopy based sparse reconstruction of coronary venous anatomy with application to cardiac resynchronisation therapy</td>
             <td>We worked on the fluoroscopy-based sparse 3D reconstruction of coronary venous anatomy with application to cardiac resynchronisation therapy (CRT).
                 Using this technique, a better informed placement of the CRT pacing leads can be made during a cardiac surgery.
@@ -183,10 +249,10 @@
                 <a href="/images/researchInterests2.png" target="_blank" class="btn btn-default" role="button">Image 2</a>
                 <a href="/images/researchInterests3.jpg" target="_blank" class="btn btn-default" role="button">Image 3</a>
             </td>
-            <td><a href="http://justcallharry.com/index.html" target="_blank">Dr. Prahlad G. Menon</a></td>
+            <td><a href="http://justcallharry.com/index.html" target="_blank">Dr. Pratap Tokekar</a></td>
         </tr>
         <tr>
-            <td>2</td>
+            <td>4</td>
             <td>Detection of Diabetic Retinopathy from retinal images</td>
             <td>Developed various image processing techniques to develop an algorithm for automatically detecting and measuring the severity of Diabetic Retinopathy from high
                 resolution retinal (fundus) images.
@@ -194,7 +260,7 @@
             <td><a href="http://drkmm.com/" target="_blank">Dr. K. M. M. Rao</a></td>
         </tr>
         <tr>
-            <td>3</td>
+            <td>5</td>
             <td>Image segmentation in pure Java (without libraries)</td>
             <td>Implemented an object oriented program in Java to segment a black and white image to extract out contiguous clusters of dark pixels.
                 <a href="https://github.com/SampannaKahu/BlobExtractionInJava" target="_blank" class="btn btn-default" role="button">Source Code</a>
@@ -202,7 +268,7 @@
             <td>Myself</td>
         </tr>
         <tr>
-            <td>4</td>
+            <td>6</td>
             <td>ML Challenge</td>
             <td>Participated in a competitive coding Machine Learning challenge organised at Flipkart.com.
                 The objective was to detect the return-to-origin fraud happening at flipkart.
@@ -212,7 +278,7 @@
             <td>Myself</td>
         </tr>
         <tr>
-            <td>5</td>
+            <td>7</td>
             <td>QNA Classifier</td>
             <td>Made a Deep Learning sentence classification ML model using TensorFlow. This model classifies any input sentence into a question or an answer.
                 <a href="https://github.com/SampannaKahu/qna-classifier" target="_blank" class="btn btn-default" role="button">Source Code</a>
@@ -221,7 +287,7 @@
             <td>Myself</td>
         </tr>
         <tr>
-            <td>6</td>
+            <td>8</td>
             <td>Parallax Error Lens</td>
             <td>Parallax Error Lens can convert any ordinary surface into a touch-surface using stereoscopic vision principles. It is a specially designed lens which can be
                 attached to
@@ -234,7 +300,7 @@
             <td>Myself</td>
         </tr>
         <tr>
-            <td>7</td>
+            <td>9</td>
             <td>Robotic arm</td>
             <td>A 2-DOF planar manipulator arm that uses two servo motors to mirror cursor movements.
                 <a href="https://github.com/SampannaKahu/robotic_arm_simulator" target="_blank" class="btn btn-default" role="button">Source Code</a>
@@ -242,7 +308,7 @@
         </tr>
 
         <tr>
-            <td>8</td>
+            <td>10</td>
             <td>Android app to download a random wallpaper from the internet</td>
             <td>Made an Android app, which when triggered, downloads a random wallpaper from the Internet using Bing's API
                 and sets it as your Android smartphone's wallpaper.
